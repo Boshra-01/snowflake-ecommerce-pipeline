@@ -1,0 +1,42 @@
+ORDER_ID,CUSTOMER_ID,CUSTOMER_NAME,EMAIL,PRODUCT_ID,PRODUCT_NAME,CATEGORY,QUANTITY,UNIT_PRICE,ORDER_STATUS,ORDER_DATE,SHIP_DATE,SHIP_COUNTRY,PAYMENT_METHOD
+ORD-1001,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-101,Wireless Bluetooth Headphones,Electronics,1,79.99,Delivered,2025-04-01,2025-04-03,United States,Credit Card
+ORD-1001,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-101,Wireless Bluetooth Headphones,Electronics,1,79.99,Delivered,2025-04-01,2025-04-03,United States,Credit Card
+ORD-1002,CUST-502,Bob Smith,bob.smith@email.com,PROD-202,Running Shoes - Men Size 10,Footwear,1,129.50,Shipped,2025-04-02,2025-04-05,Canada,PayPal
+ORD-1002,CUST-502,Bob Smith,bob.smith@email.com,PROD-202,Running Shoes - Men Size 10,Footwear,1,129.50,Shipped,2025-04-02,2025-04-05,Canada,PayPal
+ORD-1004,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-404,Yoga Mat - Purple,Fitness,1,34.99,Delivered,2025-04-03,2025-04-04,United States,Credit Card
+ORD-1003,CUST-503,Clara Wei,clara.wei@email.com,PROD-303,"Organic Coffee Beans, 2lb Bag",Grocery,3,18.75,Processing,2025-04-03,,United States,Debit Card
+ORD-1003,CUST-503,Clara Wei,clara.wei@email.com,PROD-303,"Organic Coffee Beans, 2lb Bag",Grocery,3,18.75,Processing,2025-04-03,,United States,Debit Card
+ORD-1004,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-404,Yoga Mat - Purple,Fitness,1,34.99,Delivered,2025-04-03,2025-04-04,United States,Credit Card
+ORD-1005,CUST-504,David Park,david.park@email.com,PROD-505,USB-C Charging Cable 6ft,Electronics,2,12.99,Cancelled,2025-04-04,,United Kingdom,Credit Card
+ORD-1005,CUST-504,David Park,david.park@email.com,PROD-505,USB-C Charging Cable 6ft,Electronics,2,12.99,Cancelled,2025-04-04,,United Kingdom,Credit Card
+ORD-1006,CUST-505,Emma Garcia,emma.garcia@email.com,PROD-606,"Stainless Steel Water Bottle, 32oz",Kitchen,1,24.99,Shipped,2025-04-05,2025-04-07,Australia,PayPal
+ORD-1007,CUST-506,Frank Miller,frank.miller@email.com,PROD-101,Wireless Bluetooth Headphones,Electronics,2,79.99,Delivered,2025-04-05,2025-04-06,United States,Debit Card
+ORD-1006,CUST-505,Emma Garcia,emma.garcia@email.com,PROD-606,"Stainless Steel Water Bottle, 32oz",Kitchen,1,24.99,Shipped,2025-04-05,2025-04-07,Australia,PayPal
+ORD-1007,CUST-506,Frank Miller,frank.miller@email.com,PROD-101,Wireless Bluetooth Headphones,Electronics,2,79.99,Delivered,2025-04-05,2025-04-06,United States,Debit Card
+ORD-1008,CUST-507,Grace Kim,grace.kim@email.com,PROD-707,Python Programming Book,Books,1,45.00,Processing,2025-04-06,,Canada,Credit Card
+ORD-1009,CUST-508,Hassan Ali,hassan.ali@email.com,PROD-808,Ceramic Plant Pot - Large,Home & Garden,4,15.50,Shipped,2025-04-06,2025-04-08,United States,PayPal
+ORD-1008,CUST-507,Grace Kim,grace.kim@email.com,PROD-707,Python Programming Book,Books,1,45.00,Processing,2025-04-06,,Canada,Credit Card
+ORD-1009,CUST-508,Hassan Ali,hassan.ali@email.com,PROD-808,Ceramic Plant Pot - Large,Home & Garden,4,15.50,Shipped,2025-04-06,2025-04-08,United States,PayPal
+ORD-1010,CUST-509,Iris Chen,iris.chen@email.com,PROD-202,Running Shoes - Men Size 10,Footwear,1,129.50,Delivered,2025-04-07,2025-04-09,United States,Credit Card
+ORD-1010,CUST-509,Iris Chen,iris.chen@email.com,PROD-202,Running Shoes - Men Size 10,Footwear,1,129.50,Delivered,2025-04-07,2025-04-09,United States,Credit Card
+ORD-2002,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-303,Organic Coffee Beans 2lb,GROCERY,2,18.75,Delivered,2025-04-08,2025-04-10,United States,Credit Card
+ORD-2003,CUST-502,Bob Smith,bob.smith@email.com,PROD-101,Wireless Bluetooth Headphones,ELECTRONICS,1,79.99,Delivered,2025-04-08,2025-04-11,Canada,PayPal
+ORD-2004,CUST-503,Clara Wei,clara.wei@email.com,PROD-404,Yoga Mat - Purple,FITNESS,2,34.99,Delivered,2025-04-09,2025-04-11,United States,Debit Card
+ORD-2005,CUST-504,David Park,david.park@email.com,PROD-606,Stainless Steel Water Bottle 32oz,KITCHEN,3,24.99,Shipped,2025-04-09,2025-04-12,United Kingdom,Credit Card
+ORD-2006,CUST-505,Emma Garcia,emma.garcia@email.com,PROD-101,Wireless Bluetooth Headphones,ELECTRONICS,1,79.99,Delivered,2025-04-10,2025-04-12,Australia,PayPal
+ORD-2007,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-707,Python Programming Book,BOOKS,1,45.00,Delivered,2025-04-10,2025-04-12,United States,Credit Card
+ORD-2008,CUST-506,Frank Miller,frank.miller@email.com,PROD-202,Running Shoes - Men Size 10,FOOTWEAR,1,129.50,Delivered,2025-04-11,2025-04-13,United States,Debit Card
+ORD-2009,CUST-507,Grace Kim,grace.kim@email.com,PROD-808,Ceramic Plant Pot - Large,HOME & GARDEN,2,15.50,Cancelled,2025-04-11,,Canada,Credit Card
+ORD-2010,CUST-508,Hassan Ali,hassan.ali@email.com,PROD-101,Wireless Bluetooth Headphones,ELECTRONICS,2,79.99,Delivered,2025-04-12,2025-04-14,United States,PayPal
+ORD-2011,CUST-509,Iris Chen,iris.chen@email.com,PROD-303,Organic Coffee Beans 2lb,GROCERY,4,18.75,Delivered,2025-04-12,2025-04-14,United States,Credit Card
+ORD-2012,CUST-510,Jake Brown,jake.brown@email.com,PROD-505,USB-C Charging Cable 6ft,ELECTRONICS,5,12.99,Delivered,2025-04-13,2025-04-15,United States,Credit Card
+ORD-2013,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-606,Stainless Steel Water Bottle 32oz,KITCHEN,1,24.99,Delivered,2025-04-13,2025-04-15,United States,Credit Card
+ORD-2014,CUST-502,Bob Smith,bob.smith@email.com,PROD-404,Yoga Mat - Purple,FITNESS,1,34.99,Processing,2025-04-14,,Canada,PayPal
+ORD-2015,CUST-511,Karen Lee,karen.lee@email.com,PROD-101,Wireless Bluetooth Headphones,ELECTRONICS,1,79.99,Delivered,2025-04-14,2025-04-16,United States,Debit Card
+ORD-2016,CUST-512,Leo Martinez,leo.martinez@email.com,PROD-202,Running Shoes - Men Size 10,FOOTWEAR,1,129.50,Delivered,2025-04-15,2025-04-17,United States,Credit Card
+ORD-2017,CUST-503,Clara Wei,clara.wei@email.com,PROD-707,Python Programming Book,BOOKS,2,45.00,Shipped,2025-04-15,2025-04-18,United States,Credit Card
+ORD-2018,CUST-513,Maya Patel,maya.patel@email.com,PROD-808,Ceramic Plant Pot - Large,HOME & GARDEN,3,15.50,Delivered,2025-04-16,2025-04-18,United Kingdom,PayPal
+ORD-2019,CUST-505,Emma Garcia,emma.garcia@email.com,PROD-303,Organic Coffee Beans 2lb,GROCERY,2,18.75,Delivered,2025-04-16,2025-04-18,Australia,PayPal
+ORD-2021,CUST-501,Alice Johnson,alice.johnson@email.com,PROD-202,Running Shoes - Men Size 10,FOOTWEAR,1,129.50,Delivered,2025-04-17,2025-04-19,United States,Credit Card
+ORD-2020,CUST-514,Noah Wilson,noah.wilson@email.com,PROD-505,USB-C Charging Cable 6ft,ELECTRONICS,3,12.99,Cancelled,2025-04-17,,Canada,Debit Card
+ORD-1011,CUST-510,Test User,test@email.com,PROD-101,Wireless Bluetooth Headphones,Electronics,1,79.99,Processing,2025-05-10,,United States,Credit Card
