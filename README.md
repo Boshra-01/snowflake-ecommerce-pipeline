@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Snowflake E-Commerce Data Pipeline
 
 A cloud-based end-to-end data engineering project that builds a real-time e-commerce analytics pipeline using Snowflake, AWS S3, Snowpipe, Streams, Tasks, and SQL.
@@ -95,184 +94,50 @@ snowflake-ecommerce-pipeline/
     └── aws_s3_snowpipe_setup.md
 ```
 
----
-
 # Pipeline Phases
 
-## Phase 1 — Foundation Setup
+## Phase 1 — Snowflake Foundation
+Set up the Snowflake warehouse, database, schemas, CSV file format, and the RAW orders table.
 
-Created:
-
-- Snowflake warehouse
-- Database and schemas
-- CSV file format
-- RAW ingestion table
-
-Main Components:
-
-- `ECOMMERCE_WH`
-- `ECOMMERCE_DB`
-- `RAW`, `STAGING`, `ANALYTICS` schemas
-- `RAW.ORDERS` table
-
-SQL File:
-
-```text
-P1 S1 Foundation_setup.sql
-```
-
----
-
-## Phase 2 — AWS S3 + Snowpipe Integration
-
-Configured:
-
-- AWS S3 bucket for incoming CSV files
-- IAM policies and IAM roles
-- Snowflake Storage Integration
-- External Stage
-- Snowpipe auto-ingestion
-- S3 Event Notification integration
-
-Features:
-
-- Automatic ingestion from S3 to Snowflake
-- Event-driven pipeline architecture
-- Continuous loading workflow
-
-SQL Files:
-
-```text
-P2 S3 Create Storage Integration.sql
-P2 S5 Create External Stage.sql
-P2 S6 Create Snowpipe.sql
-P2 S8 Test End-to-End Ingestion.sql
-```
-
----
+## Phase 2 — S3 and Snowpipe Ingestion
+Connected AWS S3 with Snowflake using Storage Integration, External Stage, Snowpipe, and S3 Event Notification to automatically load CSV files into Snowflake.
 
 ## Phase 3 — Streams and Tasks Automation
-
-Built:
-
-- Snowflake Stream for incremental tracking
-- Automated transformation tasks
-- Cleaned staging tables
-- Analytics-ready summary tables
-
-Features:
-
-- Incremental CDC-style processing
-- Scheduled SQL automation
-- Data cleaning and normalization
-- Analytics aggregation
-
-SQL Files:
-
-```text
-P3 S2 Create the Stream on RAW.ORDERS.sql
-P3 S3 Create the STAGING Table.sql
-P3 S4 RAW to STAGING.sql
-P3 S5 Create Analytics Tables.sql
-P3 S6 Staging to Analytics.sql
-P3 S7 Resume Tasks and Test End-to-End.sql
-```
-
----
+Created a Snowflake Stream to track new RAW orders and used Tasks to clean, transform, and move data into STAGING and ANALYTICS tables.
 
 ## Phase 4 — Reporting and Validation
-
-Implemented:
-
-- Reporting views
-- Pipeline validation
-- Additional sample ingestion testing
-
-Features:
-
-- Reporting layer creation
-- End-to-end verification
-- Analytics querying
-
-SQL Files:
-
-```text
-P4 S1 Load More Sample Data.sql
-P4 S2 Trigger the tasks.sql
-P4 S3 Reporting Views.sql
-P4 S4 Verify the views.sql
-```
+Built reporting views and tested the full pipeline by loading additional sample data and verifying analytics results.
 
 ---
 
-# Sample Analytics Outputs
+# Analytics Outputs
 
-The pipeline generates analytics tables including:
+The pipeline creates analytics-ready tables and views for:
 
 - Daily sales summary
-- Product performance analysis
+- Product performance
 - Customer purchase summary
-- Reporting views for BI/dashboard usage
-
-Example insights:
-
-- Revenue trends
-- Top-selling products
-- Customer lifetime value
-- Order volume analysis
+- Revenue and order trends
 
 ---
 
-# Key Snowflake Concepts Demonstrated
+# Key Concepts Used
 
-- Snowpipe Auto-Ingestion
-- Streams for Change Tracking
-- Task Graph Automation
-- External Stages
-- Storage Integrations
-- Warehouse Management
-- Medallion Architecture
-- Incremental Data Processing
+- Snowpipe auto-ingestion
+- AWS S3 event-based loading
+- Snowflake Streams and Tasks
+- RAW, STAGING, and ANALYTICS layers
+- SQL-based data transformation
+- Reporting views
 
 ---
 
-# Future Improvements
+## Future Improvements
 
-Potential enhancements:
+- Add dbt for modular SQL transformations
+- Build a Power BI or Tableau dashboard
+- Add data quality checks for incoming files
+- Automate deployment using CI/CD
 
-- dbt integration
-- Airflow orchestration
-- Power BI / Tableau dashboards
-- Snowflake Cortex AI integration
-- Data quality validation framework
-- CI/CD deployment workflow
-- Real-time streaming ingestion
 
----
 
-# Learning Outcomes
-
-This project demonstrates practical experience with:
-
-- Cloud Data Engineering
-- Snowflake Architecture
-- AWS Integration
-- Event-Driven Pipelines
-- SQL Automation
-- Incremental Data Processing
-- Real-Time Data Workflows
-
----
-
-# Author
-
-Syeda Jannatul Boshra
-
-M.S. Computer Science  
-Texas A&M University–San Antonio
-
----
-=======
-# snowflake-ecommerce-pipeline
-Snowflake e-commerce analytics pipeline with AWS S3, Snowpipe, Streams, Tasks, and SQL-based medallion architecture.
->>>>>>> 425b107e6a7ed5055b647d54736bfdd74ae4d642
