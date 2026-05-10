@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Snowflake E-Commerce Data Pipeline
 
 A cloud-based end-to-end data engineering project that builds a real-time e-commerce analytics pipeline using Snowflake, AWS S3, Snowpipe, Streams, Tasks, and SQL.
@@ -271,3 +272,7 @@ M.S. Computer Science
 Texas A&M University–San Antonio
 
 ---
+=======
+# snowflake-ecommerce-pipeline
+Snowflake e-commerce analytics pipeline with AWS S3, Snowpipe, Streams, Tasks, and SQL-based medallion architecture.
+>>>>>>> 425b107e6a7ed5055b647d54736bfdd74ae4d642
